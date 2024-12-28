@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Shield, GameController, Image } from 'lucide-react';
+import { Image } from 'lucide-react';
 import type { Project } from '../types/project';
 
 export const projects: Project[] = [
@@ -7,6 +7,7 @@ export const projects: Project[] = [
     id: 'the-annoying-traps',
     title: 'The Annoying Traps',
     description: 'A simple yet engaging vertical game where players navigate a chain past sneaky ropes without getting caught.',
+    icon: <Image className="w-6 h-6 text-purple-600 dark:text-purple-400" />,
     tech: ['Python', 'Pygame', 'Collision Detection'],
     longDescription: `The Annoying Traps is a fun and challenging vertical game where players control a chain and navigate 
 past moving ropes to reach the endpoint. The game features dynamic interactions, collision detection, and a 
@@ -34,9 +35,10 @@ restart mechanism. It provides a compelling gaming experience with opportunities
   {
     id: 'stronghold-reckoning',
     title: 'Stronghold Reckoning',
-    description: 'A strategic 2D tower defense game where players protect their treasury from waves of enemies using advanced algorithms and resource management.',
-    tech: ['C++11', 'SFML', 'A* Algorithm', 'BFS'],
-    longDescription: `Stronghold Reckoning is a 2D tower defense game that combines strategic gameplay, resource management, 
+    icon: <Image className="w-6 h-6 text-purple-600 dark:text-purple-400" />,
+description: 'A 2D tower defense game that combines strategic gameplay, resource management, and advanced algorithms.',
+tech: ['C++11', 'SFML', 'A* Algorithm', 'BFS'],
+longDescription: `Stronghold Reckoning is a 2D tower defense game that combines strategic gameplay, resource management, 
 and advanced algorithms. Players must defend their treasure vault from waves of enemies by building towers, 
 casting spells, and managing resources effectively. The game features unique enemy AI powered by A* and BFS 
 pathfinding and provides a dynamic and evolving gameplay experience.`,
@@ -59,7 +61,7 @@ pathfinding and provides a dynamic and evolving gameplay experience.`,
       }
     ],
     demoUrl: 'https://example.com/stronghold-reckoning',
-    githubUrl: 'https://github.com/abdullah-naeem-gh/stronghold-reckoning',
+    githubUrl: 'https://github.com/abdullah-naeem-gh/Stronghold_Reckon',
   },
   {
     id: 'stable-diffusion-dashboard',
@@ -91,5 +93,34 @@ Runpod Serverless to ensure efficient and scalable performance.`,
     ],
     demoUrl: 'https://example.com/sd-dashboard',
     githubUrl: 'https://github.com/abdullah-naeem-gh/SD-dashboard',
+  },
+  {
+    id: 'image-based-search-engine',
+    title: 'Image-Based Search Engine',
+    description: 'A search engine utilizing vector embeddings for image similarity.',
+    icon: <Image className="w-6 h-6 text-green-600 dark:text-green-400" />,
+    tech: ['MERN Stack', 'Multimodal Embeddings API', 'MySQL', 'Google Cloud'],
+    longDescription: `The Image-Based Search Engine leverages advanced vector embeddings to provide a powerful tool for 
+    image similarity search. Built with a robust MERN stack foundation and deployed on Google Cloud, it offers 
+    a scalable and efficient solution for image-based retrieval systems.`,
+    features: [
+      'Vector embedding technology for accurate image similarity',
+      'Seamless integration with Multimodal Embeddings API',
+      'Scalable architecture using Google Cloud services',
+      'Interactive and user-friendly interface for image searches',
+    ],
+    images: [
+      {
+        url: 'https://images.unsplash.com/photo-1513883049090-d0b7439799bf?w=800',
+        alt: 'Interface showing search results for similar images'
+      },
+      {
+        url: 'https://images.unsplash.com/photo-1519337265831-281ec6cc8514?w=800',
+        alt: 'Vector embeddings powering image search'
+      }
+    ],
+    demoUrl: 'https://example.com/image-based-search-engine',
+    githubUrl: 'https://github.com/abdullah-naeem-gh/image_Searc',
+
   },
 ];
