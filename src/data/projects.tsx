@@ -91,7 +91,7 @@ Runpod Serverless to ensure efficient and scalable performance.`,
         alt: 'Generated image samples from Stable Diffusion'
       }
     ],
-    demoUrl: 'https://example.com/sd-dashboard',
+    demoUrl: 'https://sd-dashboard-c95169e-sv2fkmpxsa-uc.a.run.app/',
     githubUrl: 'https://github.com/abdullah-naeem-gh/SD-dashboard',
   },
   {
@@ -119,7 +119,7 @@ Runpod Serverless to ensure efficient and scalable performance.`,
         alt: 'Vector embeddings powering image search'
       }
     ],
-    demoUrl: 'https://example.com/image-based-search-engine',
+    demoUrl: 'https://cloudrun-frontend-service-683908241893.us-central1.run.app/',
     githubUrl: 'https://github.com/abdullah-naeem-gh/image_Searc',
 
   },
