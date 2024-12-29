@@ -123,4 +123,32 @@ Runpod Serverless to ensure efficient and scalable performance.`,
     githubUrl: 'https://github.com/abdullah-naeem-gh/image_Searc',
 
   },
+  {
+    id: 'crime-mapping-dashboard',
+    title: 'Islamabad Crime Mapping Dashboard',
+    description: 'A Heat Map Visualisation and criminals database handling dashboard for Islamabad.',
+    icon: <Image className="w-6 h-6 text-green-600 dark:text-green-400" />,
+    tech: ['MERN Stack', 'Tableau Data Visualization', 'MySQL'],
+    longDescription: `A primarily Database Systems project, Comprehensive dashboard to manage and analyze crime data for Islamabad,
+    visualizing crime patterns with heat maps, Polygon Map, Add Crimes, Criminals, Victims.`,
+    features: [
+      'User Authentication',
+      'Data Visualization with Tableau',
+      'Data handling with MySQL',
+      'Interactive and user-friendly interface for crime mapping',
+    ],
+    images: [
+      {
+        url: 'https://images.unsplash.com/photo-1513883049090-d0b7439799bf?w=800',
+        alt: 'ERD Diagram'
+      },
+      {
+        url: 'https://images.unsplash.com/photo-1519337265831-281ec6cc8514?w=800',
+        alt: 'Website Interface'
+      }
+    ],
+    demoUrl: 'www.example.com',
+    githubUrl: 'https://github.com/abdullah-naeem-gh/Crime-Mapping-System',
+
+  },
 ];
