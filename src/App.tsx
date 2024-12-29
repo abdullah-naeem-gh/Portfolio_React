@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import GitHubActivity from './components/GitHubActivity';
 import Contact from './components/Contact';
+import Experience from './components/Experience';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <main>
           <Hero />
+          <Experience />
           <Skills />
           <Projects />
           <GitHubActivity />
